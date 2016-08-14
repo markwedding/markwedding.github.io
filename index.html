@@ -1,164 +1,193 @@
-<!doctype html>
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>Mark Wedding</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="ui container">
-      <h2 class="ui inverted center aligned icon header">
-        <i class="circular inverted teal hand peace icon"></i>
-        <div class="content">
-          Hello.
-          <div class="sub header">
-            Welcome to Mark Wedding's personal GitHub page.
-          </div>
-        </div>
-      </h2>
-      <div class="ui section inverted divider"></div>
-    </div>
 
-
-    <div class="ui stackable grid container">
-      <div class="five wide column">
-        <h3 class="ui inverted center aligned header">
-          <i class="inverted teal code icon h-element"></i>
-          <div class="content h-element">
-            Development Skills
-          </div>
-        </h3>
-        <table class="ui very compact inverted table skills-table">
-          <tbody id="skills-body">
-          </tbody>
-        </table>
-      </div>
-      <div class="eleven wide column">
-        <h3 class="ui inverted header">
-          <i class="inverted teal checked calendar icon"></i>
-          <div class="content">
-            Projects
-          </div>
-        </h3>
-
-
-        <div class="ui items">
-          <div class="item">
-            <div class="content">
-              <h3 class="ui inverted header">Twilio Texting Program</h3>
-              <div class="meta">
-                <span class="cinema">A Python program that takes a list of phone numbers, validates them, and sends a text to each of them through the Twilio API.</span>
-              </div>
-              <div class="description">
-                <!-- <p>
-                  This past year, I worked for a campus ministry at Virginia Tech. At the beginning of the school year, I helped implement a system that combined iPads, <a href="http://mailchimp.com/" target="_blank">MailChimp</a>, and <a href="https://www.twilio.com/" target="_blank">Twilio</a> to promote move-in week events for new students through emails and texts. To implement the texting, my friend and I wrote a Python script that interacts with the Twilio API to send a user-specified text message to a list of provided phone numbers. The script is on GitHub.
-                </p> -->
-              </div>
-              <div class="extra">
-                <a href="https://github.com/markwedding/twilio-script" target="_blank" class="ui right floated inverted button">
-                  <i class="github alternate icon"></i>
-                  GitHub
-                </a>
-                <div class="ui violet label">Twilio API</div>
-                <div class="ui violet label">Python</div>
-              </div>
-            </div>
-          </div>
-          <div class="ui inverted divider"></div>
-          <div class="item">
-            <div class="content">
-              <h3 class="ui inverted header">
-                LeagueShark
-              </h3>
-              <a href="http://leagueshark.markwedding.me" target="_blank" class="ui right floated inverted teal small button">
-                Site
-                <i class="angle double right icon"></i>
-              </a>
-              <div class="meta">
-                <span class="cinema">A custom-built website for managing university intramural leagues.</span>
-              </div>
-              <div class="description">
-              </div>
-              <div class="extra">
-                <a href="https://github.com/markwedding/leagueshark" target="_blank" class="ui right floated inverted button">
-                  <i class="github alternate icon"></i>
-                  GitHub
-                </a>
-                <div class="ui violet label">HTML</div>
-                <div class="ui violet label">CSS</div>
-                <div class="ui violet label">Bootstrap</div>
-                <div class="ui violet label">jQuery</div>
-                <div class="ui violet label">PHP</div>
-                <div class="ui violet label">SQL</div>
-                <div class="ui violet label">MySQL</div>
-              </div>
-            </div>
-          </div>
-          <div class="ui inverted divider"></div>
-          <div class="item">
-            <div class="content">
-              <h3 class="ui inverted header">EarthJunky</h3>
-              <a href="https://markwedding.github.io/earthjunky/" target="_blank" class="ui right floated inverted teal button">
-                Site
-                <i class="angle double right icon"></i>
-              </a>
-              <div class="meta">
-                <span class="cinema">A tutorial on how to use Bootstrap to build a home page for a fictitious business called EarthJunky.</span>
-              </div>
-              <div class="description">
-                <!-- <p>
-                  As a part of my senior seminar class at Virginia Tech, I created a Bootstrap tutorial documenting how to build a home page for a fictitious retail business called EarthJunky. It showcases many of the features of Bootstrap, and uses a free theme called Sandstone from <a href="http://bootswatch.com" target="_blank">bootswatch.com</a>. The tutorial itself can be found in the GitHub repository, and I have provided a link to the EarthJunky home page.
-                </p> -->
-              </div>
-              <div class="extra">
-                <a href="https://github.com/markwedding/earthjunky" target="_blank" class="ui right floated inverted button">
-                  <i class="github alternate icon"></i>
-                  GitHub
-                </a>
-                <div class="ui violet label">HTML</div>
-                <div class="ui violet label">CSS</div>
-                <div class="ui violet label">Bootstrap</div>
-              </div>
-            </div>
-          </div>
-          <div class="ui inverted divider"></div>
-          <div class="item">
-            <div class="content">
-              <h3 class="ui inverted header">BuiltWith.com Web Query</h3>
-              <div class="meta">
-                <span class="cinema">An Excel Web Query that returns a list of web technologies used in various charity websites.</span>
-              </div>
-              <div class="description">
-                <!-- <p>
-                  As part of a project in one of my classes at Virginia Tech, I created a script in Excel VBA that performed web queries on <a href="http://builtwith.com/" target="_blank">BuiltWith.com</a> using GET requests for a list of around 500 charity websites. The result is a table of web technologies used in the charity websites. Through a series of tests on multiple machines, I found out that if the queries are run too closely to one another, then BuiltWith will return fabricated data.
-                </p> -->
-              </div>
-              <div class="extra">
-                <a href="https://github.com/markwedding/builtwith-web-query" target="_blank" class="ui right floated inverted button">
-                  <i class="github alternate icon"></i>
-                  GitHub
-                </a>
-                <div class="ui violet label">Excel VBA</div>
-              </div>
-            </div>
-          </div>
-
-
+    <div class="ui inverted vertical masthead center aligned segment">
+      <div class="ui text container">
+         <h1 class="ui inverted header">
+           Mark Wedding
+         </h1>
+         <h2 class="ui inverted teal header">Software Developer</h2>
       </div>
     </div>
 
-    <!-- <div class="ui middle aligned stackable grid container">
+    <div class="ui center aligned stackable inverted divided grid container contact-info">
       <div class="row">
-        <div class="five wide column">
-          <img src="gh-img1.png" class="ui circular image profile-image">
+        <div class="four wide column">
+          <a href="https://github.com/markwedding" target="_blank" class="ui inverted header">
+            <i class="github inverted teal icon"></i>
+            <div class="content">
+              GitHub
+            </div>
+          </a>
+        </div>
+        <div class="four wide column">
+          <a href="https://www.linkedin.com/in/mark-wedding-73a66580" target="_blank" class="ui inverted header">
+            <i class="linkedin inverted teal icon"></i>
+            <div class="content">
+              LinkedIn
+            </div>
+          </a>
+        </div>
+        <div class="eight wide column">
+          <a href="mailto:markwedding10@gmail.com" class="ui inverted header">
+            <i class="mail inverted teal icon"></i>
+            <div class="content">
+              markwedding10@gmail.com
+            </div>
+          </a>
         </div>
       </div>
-    </div> -->
+    </div>
 
+    <h2 class="ui horizontal inverted divider header">
+      SKILLS
+    </h2>
+
+    <div class="ui stackable inverted grid container section">
+      <div class="row">
+        <div class="eight wide column">
+          <h2 class="ui inverted header">
+            <i class="html5 inverted teal icon"></i>
+            <div class="content">
+              Web Development
+            </div>
+          </h2>
+          <p class="p-m">
+            I know how to create custom websites combining HTML, CSS, JavaScript, front-end frameworks like Bootstrap, and a PHP/MySQL back end.
+          </p>
+          <h2 class="ui inverted header">
+            <i class="database inverted teal icon"></i>
+            <div class="content">
+              Database Development
+            </div>
+          </h2>
+          <p class="p-m">
+            I have a strong understanding of relational databases and know how to design an effective database structure for the back end of an application.
+          </p>
+          <h2 class="ui inverted header">
+            <i class="wordpress inverted teal icon"></i>
+            <div class="content">
+              Website Management
+            </div>
+          </h2>
+          <p>
+            I have used WordPress to update content on a website and have implemented various plug-ins related to content presentation, user forms, and payment processing.
+          </p>
+        </div>
+        <div class="eight wide column">
+          <table class="ui compact inverted table skills-table">
+            <tbody id="skills-body">
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="ui horizontal inverted divider header">
+      PROJECTS
+    </h2>
+
+    <div class="ui stackable inverted grid container section">
+      <div class="row">
+        <div class="left floated seven wide column">
+          <div class="project">
+            <h2 class="ui inverted header">
+              <i class="soccer inverted teal icon"></i>
+              <div class="content">
+                LeagueShark
+              </div>
+            </h2>
+            <p>
+              A custom-built website for managing university intramural leagues. Built with HTML, CSS, jQuery, Bootstrap, PHP, and MySQL.
+            </p>
+            <div class="button-group">
+              <a href="https://github.com/markwedding/leagueshark" target="_blank" class="ui large inverted teal button">
+                GitHub
+              </a>
+              <a href="http://leagueshark.markwedding.me" target="_blank" class="ui inverted large button">
+                Site
+                <i class="angle double right icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="ui inverted section divider"></div>
+          <div class="project">
+            <h2 class="ui inverted header">
+              <i class="tree inverted teal icon"></i>
+              <div class="content">
+                EarthJunky
+              </div>
+            </h2>
+            <p>
+              A tutorial on how to use Bootstrap to build a home page for a fictitious business called EarthJunky.
+            </p>
+            <div class="button-group">
+              <a href="https://github.com/markwedding/earthjunky" target="_blank" class="ui large inverted teal button">
+                GitHub
+              </a>
+              <a href="https://markwedding.github.io/earthjunky/" target="_blank" class="ui inverted large button">
+                Site
+                <i class="angle double right icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="right floated seven wide column">
+          <div class="project">
+            <h2 class="ui inverted header">
+              <i class="mobile inverted teal icon"></i>
+              <div class="content">
+                Twilio Texting Program
+              </div>
+            </h2>
+            <p>
+              A Python program that processes a list of phone numbers and sends a text to each of them using the Twilio API. I built it with a friend.
+            </p>
+            <div class="button-group">
+              <a href="https://github.com/markwedding/twilio-script" target="_blank" class="ui large inverted teal button">
+                GitHub
+              </a>
+            </div>
+          </div>
+          <div class="ui inverted section divider"></div>
+          <div class="project">
+            <h2 class="ui inverted header">
+              <i class="browser inverted teal icon"></i>
+              <div class="content">
+                BuiltWith.com Excel Web Query
+              </div>
+            </h2>
+            <p>
+              An Excel macro that queries BuiltWith.com and returns a list of web technologies used in various charity websites.
+            </p>
+            <div class="button-group">
+              <a href="https://github.com/markwedding/builtwith-web-query" target="_blank" class="ui large inverted teal button">
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ui inverted segment divider"></div>
+
+    <div class="ui inverted stackable centered grid container closer">
+      <div class="column">
+        <h3 class="ui inverted header">
+          This web page was built with HTML, CSS, JavaScript, and <a href="http://semantic-ui.com/" target="_blank">Semantic UI</a>.
+        </h3>
+      </div>
+    </div>
 
     <script src="script.js"></script>
   </body>

@@ -21,7 +21,7 @@ var html = "";
 for(var i = 0; i < skills.length; i++) {
   html += '<tr>';
   html += '<td class="right aligned eight wide">';
-  html += '<h4 class="ui inverted header">' + skills[i][0] + '</h4>';
+  html += '<h3 class="ui inverted header">' + skills[i][0] + '</h3>';
   html += '</td>';
   html += '<td class="eight wide">';
   for (var j = 0; j < skills[i][1]; j++) {

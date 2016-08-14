@@ -1,31 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Raleway:100,400,700');
+
 body {
   background-color: rgb(27, 28, 29);
-  padding-top: 50px;
 }
 
-.profile-image {
-  height: 250px;
+.masthead h1.ui.header {
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+  font-size: 6em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
 }
 
-.skills-table {
-  background-color: rgb(27, 28, 29) !important;
+.masthead h2.ui.header {
+  margin-top: 0em;
+  margin-bottom: 4em;
+  font-size: 2em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+
+.contact-info a.ui.header {
+  font-size: 2em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.contact-info .ui.header .icon, .section .ui.header .icon {
+  padding-top: 0px;
+}
+
+.contact-info a.ui.header:hover {
+  color: #2185D0;
+}
+
+h2.ui.divider.header {
+  margin-top: 5em;
+  margin-bottom: 2em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+table.ui.table.skills-table {
+  background-color: rgb(27, 28, 29);
 }
 
 .skills-table td {
   border-style: none !important;
 }
 
-.h-element {
-  display: inline-block !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
+.skills-table h3.ui.header {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
 }
 
-.items p, h3 {
-  color: white !important;
+.section h2.ui.header {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  margin-bottom: 0.5em;
 }
 
-.items span {
-  font-style: italic !important;
-  color: gray !important;
+.section p {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 1.5em;
+}
+
+.section p.p-m {
+  margin-bottom: 3em;
+}
+
+.project {
+  margin-bottom: 2em;
+}
+
+.project a.ui.button {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.button-group {
+  text-align: center;
+}
+
+.closer h3.ui.header {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
