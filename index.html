@@ -5,13 +5,12 @@
     <meta charset="utf-8">
     <title>Mark Wedding</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script>
-    <link rel="stylesheet" href="mw.css">
-    <script src="mw.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script> -->
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body class="ui inverted segment">
-    <div class="ui container page-content">
+  <body>
+    <div class="ui container">
       <h2 class="ui inverted center aligned icon header">
         <i class="circular inverted teal hand peace icon"></i>
         <div class="content">
@@ -21,6 +20,146 @@
           </div>
         </div>
       </h2>
+      <div class="ui section inverted divider"></div>
     </div>
+
+
+    <div class="ui stackable grid container">
+      <div class="five wide column">
+        <h3 class="ui inverted center aligned header">
+          <i class="inverted teal code icon h-element"></i>
+          <div class="content h-element">
+            Development Skills
+          </div>
+        </h3>
+        <table class="ui very compact inverted table skills-table">
+          <tbody id="skills-body">
+          </tbody>
+        </table>
+      </div>
+      <div class="eleven wide column">
+        <h3 class="ui inverted header">
+          <i class="inverted teal checked calendar icon"></i>
+          <div class="content">
+            Projects
+          </div>
+        </h3>
+
+
+        <div class="ui items">
+          <div class="item">
+            <div class="content">
+              <h3 class="ui inverted header">Twilio Texting Program</h3>
+              <div class="meta">
+                <span class="cinema">A Python program that takes a list of phone numbers, validates them, and sends a text to each of them through the Twilio API.</span>
+              </div>
+              <div class="description">
+                <!-- <p>
+                  This past year, I worked for a campus ministry at Virginia Tech. At the beginning of the school year, I helped implement a system that combined iPads, <a href="http://mailchimp.com/" target="_blank">MailChimp</a>, and <a href="https://www.twilio.com/" target="_blank">Twilio</a> to promote move-in week events for new students through emails and texts. To implement the texting, my friend and I wrote a Python script that interacts with the Twilio API to send a user-specified text message to a list of provided phone numbers. The script is on GitHub.
+                </p> -->
+              </div>
+              <div class="extra">
+                <a href="https://github.com/markwedding/twilio-script" target="_blank" class="ui right floated inverted button">
+                  <i class="github alternate icon"></i>
+                  GitHub
+                </a>
+                <div class="ui violet label">Twilio API</div>
+                <div class="ui violet label">Python</div>
+              </div>
+            </div>
+          </div>
+          <div class="ui inverted divider"></div>
+          <div class="item">
+            <div class="content">
+              <h3 class="ui inverted header">
+                LeagueShark
+              </h3>
+              <a href="http://leagueshark.markwedding.me" target="_blank" class="ui right floated inverted teal small button">
+                Site
+                <i class="angle double right icon"></i>
+              </a>
+              <div class="meta">
+                <span class="cinema">A custom-built website for managing university intramural leagues.</span>
+              </div>
+              <div class="description">
+              </div>
+              <div class="extra">
+                <a href="https://github.com/markwedding/leagueshark" target="_blank" class="ui right floated inverted button">
+                  <i class="github alternate icon"></i>
+                  GitHub
+                </a>
+                <div class="ui violet label">HTML</div>
+                <div class="ui violet label">CSS</div>
+                <div class="ui violet label">Bootstrap</div>
+                <div class="ui violet label">jQuery</div>
+                <div class="ui violet label">PHP</div>
+                <div class="ui violet label">SQL</div>
+                <div class="ui violet label">MySQL</div>
+              </div>
+            </div>
+          </div>
+          <div class="ui inverted divider"></div>
+          <div class="item">
+            <div class="content">
+              <h3 class="ui inverted header">EarthJunky</h3>
+              <a href="https://markwedding.github.io/earthjunky/" target="_blank" class="ui right floated inverted teal button">
+                Site
+                <i class="angle double right icon"></i>
+              </a>
+              <div class="meta">
+                <span class="cinema">A tutorial on how to use Bootstrap to build a home page for a fictitious business called EarthJunky.</span>
+              </div>
+              <div class="description">
+                <!-- <p>
+                  As a part of my senior seminar class at Virginia Tech, I created a Bootstrap tutorial documenting how to build a home page for a fictitious retail business called EarthJunky. It showcases many of the features of Bootstrap, and uses a free theme called Sandstone from <a href="http://bootswatch.com" target="_blank">bootswatch.com</a>. The tutorial itself can be found in the GitHub repository, and I have provided a link to the EarthJunky home page.
+                </p> -->
+              </div>
+              <div class="extra">
+                <a href="https://github.com/markwedding/earthjunky" target="_blank" class="ui right floated inverted button">
+                  <i class="github alternate icon"></i>
+                  GitHub
+                </a>
+                <div class="ui violet label">HTML</div>
+                <div class="ui violet label">CSS</div>
+                <div class="ui violet label">Bootstrap</div>
+              </div>
+            </div>
+          </div>
+          <div class="ui inverted divider"></div>
+          <div class="item">
+            <div class="content">
+              <h3 class="ui inverted header">BuiltWith.com Web Query</h3>
+              <div class="meta">
+                <span class="cinema">An Excel Web Query that returns a list of web technologies used in various charity websites.</span>
+              </div>
+              <div class="description">
+                <!-- <p>
+                  As part of a project in one of my classes at Virginia Tech, I created a script in Excel VBA that performed web queries on <a href="http://builtwith.com/" target="_blank">BuiltWith.com</a> using GET requests for a list of around 500 charity websites. The result is a table of web technologies used in the charity websites. Through a series of tests on multiple machines, I found out that if the queries are run too closely to one another, then BuiltWith will return fabricated data.
+                </p> -->
+              </div>
+              <div class="extra">
+                <a href="https://github.com/markwedding/builtwith-web-query" target="_blank" class="ui right floated inverted button">
+                  <i class="github alternate icon"></i>
+                  GitHub
+                </a>
+                <div class="ui violet label">Excel VBA</div>
+              </div>
+            </div>
+          </div>
+
+
+      </div>
+    </div>
+
+    <!-- <div class="ui middle aligned stackable grid container">
+      <div class="row">
+        <div class="five wide column">
+          <img src="gh-img1.png" class="ui circular image profile-image">
+        </div>
+      </div>
+    </div> -->
+
+
+    <script src="script.js"></script>
   </body>
 </html>
