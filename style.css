@@ -91,3 +91,8 @@ table.ui.table.skills-table {
   margin-top: 1em;
   margin-bottom: 1em;
 }
+
+.ui.modal .header {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}

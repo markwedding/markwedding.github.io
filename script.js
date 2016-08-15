@@ -32,3 +32,10 @@ for(var i = 0; i < skills.length; i++) {
 }
 
 document.getElementById("skills-body").innerHTML = html;
+
+$('.ui.modal')
+  .modal({
+    blurring: true
+  })
+  .modal('attach events', '.bd-more-info.button', 'show')
+;
